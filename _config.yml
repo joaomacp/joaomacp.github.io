@@ -16,9 +16,8 @@
 title: João Pereira
 email: 95joaopereira@gmail.com
 description: "Robotics Software Engineer"
-baseurl: "/posts" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://joaomacp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-icon: /assets/images/icon-512.png
 twitter_username: joaomacp
 github_username:  joaomacp
 
