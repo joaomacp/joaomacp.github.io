@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include menu.html %}
+
+<main class="home" id="main" role="main" aria-label="Content">
+
+  <h1 class="content-title divided">
+    Projects
+  </h1>
+
+
+
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <h3><p>{{ post.title }}</p><p style="color: #64644B; font-size: 0.75em; margin-top: 0">{{ post.date | date: "%Y" }}{% if post.ongoing == true %}
+        - Present{% endif %}</p></h3>
+      <div class="post-content e-content divided" itemprop="articleBody">
+        {{ post.content }}
+      </div>
+      {% endfor %}
+    </ul>
+  
+    
+
+</main>

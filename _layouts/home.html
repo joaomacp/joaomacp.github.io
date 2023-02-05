@@ -22,51 +22,20 @@ layout: default
   </header>
 {% endif %}
 
-<main class="home" id="main" role="main" aria-label="Content">
+<article class="post h-entry divided" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
 
-  <!-- <h1 class="content-title divided">
-    {% if site.paginate and site.paginate_path and paginator.page > 1 %}
-      Page {{ paginator.page }}
-    {% else %}
-      Contents
-    {% endif %}
-  </h1> -->
+<div class="post-content e-content" itemprop="articleBody">
+<p>
+I'm a goal-driven engineer, capable of implementing complete solutions and improving existing software.
+I strive for efficient approaches with minimal complexity.
+</p>
 
-  <!-- {% if site.paginate and site.paginate_path %}
-    
-    <ul class="post-list">
-      {% for post in paginator.posts %}
-        {% include post-list-item.html %}
-      {% endfor %}
-    </ul>
+<p>
+I've worked on robotics for 5 years, mainly on vision-based manipulation systems, with some projects on mobile robots.
+Previously I've done software consulting outside of robotics.
+</p>
 
-    {% if paginator.total_pages > 1 %}
+<p>I'm interested in projects involving sensing, perception, machine-learning and adaptive control, ideally for a purposeful product that improves people's lives.</p>
+</div>
 
-      <div class="post-pagination">
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
-        {% else %}
-          <span>&nbsp;</span>
-        {% endif %}
-        <span class="pagination-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Newer&nbsp;&rang;</a>
-        {% else %}
-          <span>&nbsp;</span>
-        {% endif %}
-      </div>
-
-    {% endif %}
-
-  {% else %}
-
-    <ul class="post-list">
-      {% for post in site.posts %}
-        {% include post-list-item.html %}
-      {% endfor %}
-    </ul>
-  
-  {% endif %} -->
-    
-
-</main>
+</article>
