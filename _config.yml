@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: João Pereira
 email: 95joaopereira@gmail.com
-description: "Robotics Software Engineer"
+description: "AI Software Engineer"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://joaomacp.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: joaomacp
