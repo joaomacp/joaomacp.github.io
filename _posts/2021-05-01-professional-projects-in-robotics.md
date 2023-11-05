@@ -6,4 +6,4 @@ categories: robotics, learning
 ongoing: true
 ---
 
-Full-time position in robotics-first company [Ocado](https://www.ocadogroup.com/about-us/ocado-technology/).
+Full-time position in robotics-first company [Ocado](https://www.ocadogroup.com/technology/technology-pioneers/).
